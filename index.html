@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>MathWebSearch: Searching Math on the Web</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/sticky-footer.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="container">
+        <div class="page-header">
+          <h1>MathWebSearch: Searching Math on the Web</h1>
+        </div>
+
+        <p class="lead">Search Engine</p>
+
+        <p>The <a href="https://trac.mathweb.org/MWS/wiki/SystemDescription">
+            MathWebSearch system</a> (MWS) is a content-based search engine for
+            mathematical formulae. It indexes
+            <a href="http://www.w3.org/TR/MathML3/">MathML formulae</a>, using a technique
+            derived from automated theorem proving:
+            <a href="https://en.wikipedia.org/wiki/Term_indexing">term indexing</a>.
+        </p>
+        <p>The MWS search engine is optimized for fast query responses and
+            interactive applications. Unification queries form the basis for
+            expressive query languages with well-defined semantics. Any corpus
+            whose formulae can referenced by URIs and converted to Content
+            MathML can be indexed by MWS.</p>
+        <p class="lead">Project Information</p>
+        
+        <p>MWS is developed by the <a href="http://kwarc.info">KWARC group</a>
+            at <a href="http://www.jacobs-university.de">Jacobs University</a>.
+            The source code is available in the
+            <a href="https://github.com/KWARC/mws">MWS GitHub Repository</a>.
+            For details and news about the project, see the
+            <a href="http://trac.mathweb.org/MWS">MWS Developer Portal</a>.</p>
+
+        <p class="lead">Applications</p>
+        <p>The MWS search engine can be employed by various front-ends. Here are some web-based
+            ones.</p>
+        <ul>
+            <li><a href="tema/">TeMaSearch</a> - combined text and Math search for
+                <a href="http://www.zentralblatt-math.org/zbmath/">Zentralblatt Math</a></li>
+            <li><a href="zbl/">ZBLSearch</a> - a content-oriented search engine for the formulae
+                in the 3.3 million reviews and abstracts in the <a
+                        href="http://www.zentralblatt-math.org/zbmath/">Zentralblatt Math</a> data
+                base. Queries in LaTeX extended with search variables.</li>
+            <li><a href="xl">XLSearch</a> - a search engine for spreadsheet formulae. Queries in
+                Excel + variables </li>
+            <li><a href="http://cds.omdoc.org:8181/search.html">FlatSearch</a> - a search engine
+                for formal
+            </li>
+            <li><a href="sentido/">SentidoSearch</a> - a multi-format input front-end for search
+                queries based on the <a
+                        href="http://www.matracas.org/sentido/index.html.en">Sentido</a> system. It includes
+                a generic panel-based content formula editor.</li>
+            <li><a
+                    href="https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/MathSearch.git;a=blob;f=MathSearch.i18n.php">Mediawiki
+                integrations</a>: <a
+                    href="http://wiki.physikerwelt.de/wiki/Spezial:MathSearch">Physikerwelt</a>,
+                (Wikipedia is coming).
+            </li>
+        </ul>
+        <p>We are currently developing:</p>
+        <ul>
+            <li>ETA May 2013: <a href="http://research.nii.ac.jp/ntcir/ntcir-11/">NTCIR-11</a> - a formula search engine for the <a
+                    href="http://ntcir-math.nii.ac.jp/">NTCIR-11 Math Pilot Task</a>, ranging over 100
+                000 articles from <a href="http://arxiv.org">arXiv.org</a>. Queries in LaTeX +
+                variables.</li>
+            <li>ETA June 2013: MizarATS - a search engine for applicable
+                theorems in the Mizar system. This already runs as part of the mizarwiki system, but
+                we are working on a standalone version. Queries in Mizar mathematical language
+                format.</li>
+        </ul>
+        <p>Our applications are largely restricted by our server capacities and in particular
+            the RAM (we would like to offer a formula search engine for all of the <a
+                    href="http://arxiv.org">arXiv.org</a>, but would need another server with about 128GB
+            RAM for that. If you want to donate server space or propose another application,
+            contact <a href="http://kwarc.info/kohlhase">Michael Kohlhase</a>.</p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">
+		    <a href="http://kwarc.info/"><img src="img/kwarc_logo.png" alt="KWARC research group" class="footer-logo"/></a>
+		    <a href="http://www.jacobs-university.de"><img alt="Jacobs University Bremen" src="img/jacobs_logo.png" class="footer-logo"/></a>
+        </p>
+		</div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
